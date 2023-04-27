@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #deb896;
+  color: black;
+}
+
+.Ich {
+  border: 1.5px solid black;
+  border-radius: 8px;
+  width: 200px;
+}
+.Ich:hover {
+  box-shadow: 2px 2px 2px 2px #6c4f35;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: rgb(107, 78, 56);
+}
+
+a:hover {
+  color: blue;
+  background-color: black; /* warum verändert sich nichts*/
+}
+
+a:visited {
+  color: black; /* warum verändert sich nichts*/
+}
