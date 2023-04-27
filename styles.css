@@ -16,7 +16,8 @@ h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border: black solid;
   padding: 5px;
-  margin: 50px 5px 20px 5px;
+  margin: 50px 5px 35px 5px;
+  text-align: center;
 }
 
 .Ich {
@@ -59,4 +60,18 @@ p {
 .hobbys {
   border-left: rgb(220, 158, 105) solid 5px;
   padding: 0px 10px;
+}
+
+h3 {
+  color: rgb(208, 131, 72);
+  border: rgb(208, 131, 72) solid 1px;
+  margin: 100px 100px 50px 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+.Zeugnisse {
+  color: rgb(208, 131, 72);
+  margin: 0px 100px 100px 100px;
+  list-style: square;
 }
