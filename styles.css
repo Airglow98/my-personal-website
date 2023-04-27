@@ -45,3 +45,18 @@ a:hover {
 a:visited {
   color: black; /* warum verändert sich nichts? */
 }
+
+p {
+  text-align: left;
+  margin: 15px;
+}
+
+.intro {
+  border-left: rgb(222, 154, 51) solid 5px;
+  padding: 0px 10px;
+}
+
+.hobbys {
+  border-left: rgb(220, 158, 105) solid 5px;
+  padding: 0px 10px;
+}
