@@ -11,6 +11,7 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 50px 50px;
   color: rgb(107, 78, 56);
+  text-align: center;
 }
 
 h2 {
@@ -42,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: rgb(237, 227, 199);
   background-color: black; /* warum verändert sich nichts*/
 }
 
@@ -71,4 +72,11 @@ h3 {
   margin: 100px 100px 50px 100px;
   padding: 5px;
   text-align: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: ;
 }
