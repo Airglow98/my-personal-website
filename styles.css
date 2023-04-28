@@ -10,14 +10,16 @@ html {
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 50px 50px;
+  color: rgb(107, 78, 56);
 }
 
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  border: black solid;
+  border: rgb(107, 78, 56) solid;
   padding: 5px;
   margin: 50px 5px 35px 5px;
   text-align: center;
+  color: rgb(107, 78, 56);
 }
 
 .Ich {
@@ -30,8 +32,9 @@ h2 {
 }
 
 ul {
-  list-style: none;
-  text-align: left;
+  color: rgb(208, 131, 72);
+  margin: 0px 100px 100px 100px;
+  list-style: square;
 }
 
 a {
@@ -44,7 +47,7 @@ a:hover {
 }
 
 a:visited {
-  color: black; /* warum verändert sich nichts? */
+  color: rgb(208, 131, 72); /* warum verändert sich nichts? */
 }
 
 p {
@@ -68,10 +71,4 @@ h3 {
   margin: 100px 100px 50px 100px;
   padding: 5px;
   text-align: center;
-}
-
-.Zeugnisse {
-  color: rgb(208, 131, 72);
-  margin: 0px 100px 100px 100px;
-  list-style: square;
 }
