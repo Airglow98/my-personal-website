@@ -53,7 +53,7 @@ a:visited {
 
 p {
   text-align: left;
-  margin: 15px;
+  margin: 25px;
 }
 
 .intro {
@@ -78,5 +78,9 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: ;
+}
+
+.meinbild {
+  display: flex;
+  justify-content: center;
 }
