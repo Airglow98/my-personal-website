@@ -44,7 +44,7 @@ a {
 
 a:hover {
   color: rgb(237, 227, 199);
-  background-color: black; /* warum verändert sich nichts*/
+  background-color: black;
 }
 
 a:visited {
@@ -78,6 +78,7 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .meinbild {
