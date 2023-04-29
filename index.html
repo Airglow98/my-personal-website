@@ -4,56 +4,144 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="images/icon" href="images/team.png" />
+    <!--lädt nicht im live preview?-->
     <title>My personal Website</title>
   </head>
 
   <header>
-    <h1>Niklas Wieland</h1>
     <nav>
       <ul>
-        <a href="#About-me"> <li>About me</li></a>
-        <a href="#Biography"><li>Biography</li></a>
-        <a href="#Skillset"><li>Skillset</li></a>
-        <a href="#My-Work"><li>What I'm working on</li></a>
-        <a href="#Contact-me"><li>Contact me</li></a>
+        <li><a href="#About-me">About me</a></li>
+        <li><a href="#Biography">Biography</a></li>
+        <li><a href="#Skillset">Skillset</a></li>
+        <li><a href="#My-Work">What I'm working on</a></li>
+        <li><a href="#Contact-me">Contact me</a></li>
       </ul>
     </nav>
   </header>
 
   <body>
+    <button class="button-to-top">Go to Top</button>
+    <h1>Niklas Patrick Michael Wieland</h1>
     <section id="About-me">
-      <img src="Bild.jpg" alt="Picture of me" />
+      <figure class="meinbild">
+        <img src="images/Bild.jpg" alt="Picture of me" class="Ich" />
+      </figure>
       <h2>About me</h2>
-      <p>Super cooler Text über mich und meine Hobbys</p>
+      <p class="intro">
+        Hey! Schön das du auf meiner Seite gelandet bist. Ich bin Niklas 24
+        Jahre alt und befinde mich gerade im Bootcamp zum Web Developer von
+        neuefische. Nachdem ich einen kleinen Umweg über den Einzelhandel
+        gegangen bin, darf ich nun meiner großen Leidenschaft für Technik
+        nachgehen, indem ich lerne ein ausgezeichneter Programmierer zu werden!
+        Bisher durfte ich dieser Leidenschaft während meiner Ausbildungszeit bei
+        Gamestop nachgehen, indem ich Kunden bei jeglichen Konsolen-, Spielen-
+        und sonstigen Fragen und Problemen weiterhelfen durfte. Als ich nach
+        dieser tollen Zeit für ein Jahr bei Ikea gearbeitet habe wurde mir klar
+        das mir der Einzelhandel Spaß macht, ich aber auf jeden Fall in die IT
+        möchte. Und das kann ich nach dem Anfang des Bootcampes nur weiterhin
+        bestätigen!
+      </p>
+      <p class="hobbys">
+        Neben dieser Leidenschaft begeistere ich mich stets für neue Projekte
+        und Herausforderung. Während mich allerdings einige Projekte aufgrund
+        der neuen Erfahrung reizen, wie das bauen einer Kettenrüstung, bleiben
+        andere Hobbys wie z.B. Tanzen, Gitarre spielen, Gaming (analog &
+        digital) oder Darts wohl eher dauerhaft. Und falls ich nicht vor dem
+        Rechner gefunden werden kann, dann sicherlich bei einem dieser Hobbys,
+        in der Natur oder auf einem mittelalterlichen Markt.
+      </p>
     </section>
 
     <section id="Biography">
       <h2>Biography</h2>
-      <p>Super cooler Text über meinen Werdegang</p>
-      <ul>
-        <li>Schulabschluss</li>
-        <a href="IHK.png" target="_blank"><li>Ausbildungabschluss</li></a>
-        <li>Berufliche Erfahrung</li>
-        <li>Bootcamp</li>
+      <p class="Biography">
+        Nachdem ich 2017 von der Schule abgegangen bin, habe ich eine Ausbildung
+        als Kaufmann im Einzelhandel angefangen und nach drei Jahren erfolgreich
+        beenden können.
+        <!--Kein br?-->
+        Vor dieser ersten Vollzeitanstellung konnte ich in kleineren
+        Anstellungsverhältnissen erste Erfahrung in der Berufswelt sammeln.
+        Bereits im Januar 2013 konnte ich nach erfolgreichem Abschluss einer
+        "AG-Leiter-Ausbildung" als Trainer für Basketball, sowie Badminton
+        agieren und eigene Kurse leiten. Nachdem ich durch diese Erfahrung meine
+        Kommunikations-, Durchsetzungs- und Problemlösungskills verbessern
+        konnte, habe ich nach etwas mehr als zwei Jahren diese Tätigkeit
+        niedergelegt und angefangen Zeitung auszutragen. Während dieser Zeit,
+        die knapp zweieinhalb Jahre umfasste, lernte ich mich selber besser zu
+        organisieren, vor allem in dem Punkt des Zeitmanagments, da Schule und
+        Hobbys ebenso meinen Fokus erforderten. Durch diese Grundkenntnisse fiel
+        mir der Einstieg in das spätere Arbeitsleben leicht und ich bekam
+        schnell neue Aufgaben, durch welche ich zusätzlich lernte Verantwortung
+        und Eigeninitiative zu übernehmen. Indem ich zum Beispiel selbstständig
+        die Ladengestaltung veränderte und auf Kunden zuging. Auch gehörte es
+        zum Alltag für das öffnen des Geschäftes, sowie der Inventur und der
+        Kassenabrechnung verantwortlich zu sein. Nach meiner Anstellung bei
+        Gamestop arbeitet ich ein Jahr lang für Ikea. Ich merkte schnell das mir
+        der Umgang mit Kunden Freude bereitet, ich allerdings auch meiner großen
+        Leidenschaft für Technik nachgehen möchte. Daher beschloß ich für mich,
+        dass ein Quereinstieg in die IT genau das richtige ist nachdem ich
+        herausfand, dass ich auch hier meine soziale Ader weiterhin in
+        Teamprojekten ausleben kann. Und genau da befinde ich mich zur Zeit! Im
+        Bootcamp von neuefische mit denen ich lerne mit HTML, CSS, JAVASCRIPT,
+        REACT usw. umzugehen und ein großartiger Developer zu werden!
+      </p>
+
+      <h3>Zeugnisse & Zertifikate</h3>
+      <ul class="Zeugnisse">
+        <li>
+          <a href="images/AG-Leiter.png" target="_blank"
+            >AG-Leiter-Ausbildung</a
+          >
+        </li>
+        <li>
+          <a href="images/Erwerb-Fachhochschulreife.png" target="_blank">
+            Fachhochschulreife</a
+          >
+        </li>
+        <li>
+          <a href="images/IHK.png" target="_blank">Ausbildungabschluss</a>
+        </li>
+        <li>
+          <a href="#" target="_blank"> Bootcamp</a>
+        </li>
       </ul>
     </section>
 
     <section id="Skillset">
       <h2>Skillset</h2>
+
+      <p>Hier kommt noch Text zu den Softskills</p>
+      <h3>Softskills</h3>
+
+      <ul>
+        <li>Motivation</li>
+        <li>Lernbereitschaft</li>
+        <li>Teamfähigkeit</li>
+        <li>Strategisches Denkvermögen</li>
+      </ul>
+
+      <h3>Hardskills</h3>
       <ul>
         <li>HTML5</li>
         <li>CSS</li>
         <li>Javascript</li>
         <li>React</li>
+        <li>MongoDB</li>
       </ul>
     </section>
 
     <section id="My-Work">
       <h2>What I'm working on</h2>
       <ul>
-        <a href="https://airglow98.github.io/Lauramiellee/"
-          ><li>Lauramiellee-Designs</li></a
-        >
+        <li>
+          <a href="https://airglow98.github.io/Lauramiellee/"
+            >Lauramiellee-Designs</a
+          >
+        </li>
+
         <li>App</li>
         <li>App</li>
       </ul>
@@ -62,8 +150,8 @@
     <section id="Contact-me">
       <h2>Contact me</h2>
       <ul>
-        <a href="mailto:niklaswieland@hotmail.de"><li>E-mail</li></a>
-        <a href="https://github.com/Airglow98"><li>GitHub</li></a>
+        <li><a href="mailto:niklaswieland@hotmail.de">E-mail</a></li>
+        <li><a href="https://github.com/Airglow98">GitHub</a></li>
         <li>Xing</li>
         <li>LinkedIn</li>
       </ul>
