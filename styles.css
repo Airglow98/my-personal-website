@@ -9,16 +9,19 @@ html {
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 50px 50px;
-  color: rgb(107, 78, 56);
+  color: #deb896;
+  background-color: rgb(107, 78, 56);
   text-align: center;
+  width: 100%;
+  height: 5%;
+
+  /*flex-wrap: wrap; how to wrap*/
 }
 
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border: rgb(107, 78, 56) solid;
-  padding: 5px;
-  margin: 50px 5px 35px 5px;
+  padding: 50px;
   text-align: center;
   color: rgb(107, 78, 56);
 }
@@ -43,8 +46,7 @@ a {
 }
 
 a:hover {
-  color: rgb(237, 227, 199);
-  background-color: black;
+  color: rgb(235, 220, 202);
 }
 
 a:visited {
@@ -57,7 +59,7 @@ p {
 }
 
 .intro {
-  border-left: rgb(222, 154, 51) solid 5px;
+  border-left: #845225 solid 5px;
   padding: 0px 10px;
 }
 
@@ -77,11 +79,34 @@ h3 {
 nav > ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .meinbild {
   display: flex;
   justify-content: center;
+}
+
+.Biography {
+  border-left: rgb(222, 154, 51) 5px solid;
+  padding: 0px 10px;
+}
+
+.button-to-top {
+  border-radius: 30%;
+  border: #6c4f35 solid 3px;
+  background-color: blanchedalmond;
+  color: #845225;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  width: 10%;
+  height: 8%;
+}
+
+.button-to-top:hover {
+  box-shadow: black 3px 3px 3px;
+  text-shadow: rgb(140, 97, 36) 1px 1px 10px;
 }
