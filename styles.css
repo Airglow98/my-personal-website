@@ -11,17 +11,21 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #deb896;
   background-color: rgb(107, 78, 56);
-  text-align: center;
   width: 100%;
-  height: 5%;
-
+  height: 65px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /*flex-wrap: wrap; how to wrap*/
 }
 
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border: rgb(107, 78, 56) solid;
-  padding: 50px;
+  padding: 20px;
+  margin: 25px;
   text-align: center;
   color: rgb(107, 78, 56);
 }
@@ -31,6 +35,7 @@ h2 {
   border-radius: 8px;
   width: 200px;
 }
+
 .Ich:hover {
   box-shadow: 2px 2px 2px 2px #6c4f35;
 }
@@ -39,6 +44,7 @@ ul {
   color: rgb(208, 131, 72);
   margin: 0px 100px 100px 100px;
   list-style: square;
+  padding-left: 41%;
 }
 
 a {
@@ -50,7 +56,7 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(208, 131, 72); /* warum verändert sich nichts? */
+  color: rgb(208, 131, 72); /*Warum verändert sich nichts?*/
 }
 
 p {
@@ -71,17 +77,19 @@ p {
 h3 {
   color: rgb(208, 131, 72);
   border: rgb(208, 131, 72) solid 1px;
-  margin: 100px 100px 50px 100px;
+  margin: 100px auto 50px auto;
   padding: 5px;
   text-align: center;
+  width: 400px;
 }
 
-nav > ul {
+.nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 15px;
+  padding-left: 0;
 }
 
 .meinbild {
@@ -109,4 +117,47 @@ nav > ul {
 .button-to-top:hover {
   box-shadow: black 3px 3px 3px;
   text-shadow: rgb(140, 97, 36) 1px 1px 10px;
+}
+
+.Icon1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Laptop {
+  width: 100px;
+  height: 105px;
+  /*bewegt sich nur auf einer achse*/
+}
+
+.Store {
+  width: 65px;
+  height: 65px;
+}
+
+.Icon2 {
+  display: flex;
+  justify-content: center;
+}
+
+.medieval {
+  width: 65px;
+  height: 65px;
+}
+
+#About-me {
+  scroll-margin-top: 75px;
+}
+#Biography {
+  scroll-margin-top: 75px;
+}
+#Skillset {
+  scroll-margin-top: 75px;
+}
+#My-Work {
+  scroll-margin-top: 75px;
+}
+#Contact-me {
+  scroll-margin-top: 75px;
 }
